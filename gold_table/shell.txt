@@ -1,0 +1,23 @@
+scrapy shell "https://www.investing.com/commodities/gold-historical-data" -s USER_AGENT="Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0"
+
+response.xpath('//table')
+
+table1=response.xpath('//table')[3]
+
+trs.xpath('.//td[1]//text()').extract()
+
+[tr.xpath('.//td[i]//text()').extract() for i in range(1,8)]
+
+ dict1 =[{'date': tr.xpath('.//td[1]//text()').extract(), 'price':tr.xpath('.//td[2]//text()').extract(), 'opened':tr.xpath('.//td[3]/text()').extract(), 'high': tr.xpath('.//td[4]//text()').extract(), 'low': tr.xpath('.//td[5]//text()').extract(), 'vol': tr.xpath('.//td[6]//text()').extract(), 'change_per':tr.xpath('.//td[7]//text()').extract()} for tr in trs]
+
+ {'change_per': ['-0.06%'],
+  'date': ['Feb 19, 2018'],
+  'high': ['1,353.90'],
+  'low': ['1,348.50'],
+  'opened': ['1,350.40'],
+  'price': ['1,349.70'],
+  'vol': ['-']},
+
+
+https://www.investing.com/commodities/silver-historical-data
+scrapy shell "https://www.investing.com/commodities/silver-historical-data" -s USER_AGENT="Mozilla/5.0 (X11; Linux x86_64; rv:48.0) Gecko/20100101 Firefox/48.0"
