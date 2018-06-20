@@ -2,7 +2,10 @@
 Crawling data and using machine learning to analyze the data
 
 Language: Python
+
 Framework: Scrapy, Scikit-Learn, Pandas, Numpy
+
+
 
 1. write a program to fetch the historical prices and dates of gold and silver from these 2 URLs:
 
@@ -14,6 +17,7 @@ and store them locally (in a file or database).
 
 
 
+ 
  
 
 2. write a second program that takes the following 3 command line arguments:
