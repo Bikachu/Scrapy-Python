@@ -2,8 +2,9 @@
 Crawling data and using machine learning to analyze the data
 
 Language: Python
-
+---------------------------
 Framework: Scrapy, Scikit-Learn, Pandas, Numpy
+-------
 
 
 
@@ -56,6 +57,7 @@ Also do the same to check if an increase or decrease in the price is predictable
 
 -----------------------------------------------------------------------------------------------------------------------
 How to execute the files:
+----------------
 
 1. How to run this program in CMD:
 
