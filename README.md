@@ -7,6 +7,8 @@ Framework: Scrapy, Scikit-Learn, Pandas, Numpy
 
 
 
+
+---------------------------------------------------------------------------------------------------------------------------
 1. write a program to fetch the historical prices and dates of gold and silver from these 2 URLs:
 
 •            https://www.investing.com/commodities/gold-historical-data
@@ -19,6 +21,7 @@ and store them locally (in a file or database).
 
  
  
+ ---------------------------------------------------------------------------------------------------------------------------
 
 2. write a second program that takes the following 3 command line arguments:
 
@@ -40,6 +43,8 @@ gold 1253.66 35.79
 
  
 
+
+-----------------------------------------------------------------------------------------------------------------------
 3. write a program to help you decide if the previous gold or silver prices are good predictors for their future prices.
 
 Also do the same to check if an increase or decrease in the price is predictable. (There is no need to do the actual prediction.)
