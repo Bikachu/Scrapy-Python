@@ -67,7 +67,7 @@ How to execute the files:
    
               - enter cd gold_table
    
-              -  enter scrapy crawl gold
+              - enter scrapy crawl gold
    
 then the program would run and fetch the gold historical table information.
 
@@ -79,9 +79,13 @@ then the program would run and fetch the gold historical table information.
 To run this program in cmd:
 
               - cd Desktop
+              
               - cd gold_table
+              
               - python Goldcal.py
+              
               - enter two dates (the available date will be provided before you enter)
+              
               - the second date entered should be "earlier" than the first date you entered, for example: if you entered 2018-02-18, then the next date should like 2018-02-16, not date like 2018-02-19.
  
  
