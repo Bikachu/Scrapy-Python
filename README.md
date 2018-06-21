@@ -31,15 +31,16 @@ and store them locally (in a file or database).
 
 •            Commodity type (either "gold" or silver”)
 
+
 and then returns (via the locally stored data) the mean and variance of the commodity’s price over the specified date range.
 
 For example, the program might be called like so:
 
-./getCommodityPrice 2017-05-01 2017-05-03 gold
+                             ./getCommodityPrice 2017-05-01 2017-05-03 gold
 
 and would print out a tuple such as:
 
-gold 1253.66 35.79
+                               gold 1253.66 35.79
 
  
 
