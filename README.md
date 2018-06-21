@@ -49,3 +49,43 @@ and would print out a tuple such as:
 3. write a program to help you decide if the previous gold or silver prices are good predictors for their future prices.
 
 Also do the same to check if an increase or decrease in the price is predictable. (There is no need to do the actual prediction.)
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------
+How to execute the files:
+
+1. How to run this program in CMD:
+
+   - extract the folder "gold_table" at the desktop
+   
+   -  enter cd Desktop
+   
+   - enter cd gold_table
+   
+   -  enter scrapy crawl gold
+   
+then the program would run and fetch the gold historical table information.
+
+
+
+----------------------------------------------
+2.  For the second program, the code is Goldcal.py at gold_table/.
+
+To run this program in cmd:
+
+ - cd Desktop
+ - cd gold_table
+ - python Goldcal.py
+ - you need enter two dates (the available date will be provided before you enter)
+ - the second date you entered should be "earlier" than the first date you entered, for example: if you entered 2018-02-18, then the next date should like 2018-02-16, not date like 2018-02-19.
+ 
+ 
+ 
+ ---------------------------------------------
+ 3. I choose the polynomial regression model to train the data, degree = 4.
+ The code is analysis.py at gold_table/
+
+
